@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>KAGENGU WALLPAPER</title>
+
+    <meta name="description" content="Kagengu Wallpaper - Download beautiful wallpapers for PC and Phone.">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>KAGENGU <span>WALLPAPER</span></h1>
+        <p>Your world of beautiful wallpapers</p>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <button class="active" data-category="All">Home</button>
+        <button data-category="PC">PC Wallpapers</button>
+        <button data-category="Phone">Phone Wallpapers</button>
+        <button data-category="Nature">Nature</button>
+        <button data-category="Cars">Cars</button>
+        <button data-category="Animals">Animals</button>
+        <button data-category="Gaming">Gaming</button>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <h2>Welcome to KAGENGU WALLPAPER</h2>
+
+        <p>
+            Discover thousands of beautiful wallpapers
+            for your computer and smartphone.
+        </p>
+
+        <input
+            type="text"
+            id="search"
+            placeholder="Search your favorite wallpaper..."
+        >
+    </section>
+
+    <!-- WALLPAPER GALLERY -->
+    <main>
+
+        <h2>Explore Our Wallpapers</h2>
+
+        <p class="description">
+            Choose your favorite wallpaper and download it.
+        </p>
+
+        <div id="wallpaper-container" class="gallery">
+            <!-- Wallpapers will appear here using JavaScript -->
+        </div>
+
+    </main>
+
+    <!-- ABOUT SECTION -->
+    <section class="about">
+        <h2>About KAGENGU</h2>
+
+        <p>
+            KAGENGU WALLPAPER is a beautiful platform
+            where you can find amazing wallpapers
+            for your PC, Phone and other devices.
+        </p>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact">
+        <h2>Contact Us</h2>
+
+        <p>phone num=0795444924
+
+          email:kagenguwallpaper23@gmail.com
+          
+          om</p>
+        <p>Website: KAGENGU WALLPAPER</p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <h3>KAGENGU WALLPAPER</h3>
+
+        <p>Make your screen beautiful.</p>
+
+        <p>
+            &copy; 2026 KAGENGU WALLPAPER.
+            All Rights Reserved.
+        </p>
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+</html>
+
